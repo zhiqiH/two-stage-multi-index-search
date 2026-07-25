@@ -1,0 +1,8 @@
+method,role,retrievers_used,deployable,description
+dense,baseline,dense,yes,MiniLM sentence embedding retrieval over the full 3500-document corpus.
+file_fts,baseline,file_fts,yes,SQLite FTS5 BM25F-style file search with chunk/document aggregation and title/exact anchors.
+graph_path,baseline,graph_path,yes,"Entity-document graph path retrieval using entity extraction, sentence/title links, and beam search."
+rule_router,router,dense|file_fts|graph_path,yes,Rule-based first-stage selector that chooses one core retriever from query signals.
+fusion,reference,dense|file_fts|graph_path,yes but expensive,RRF fusion over all three core retrievers; fixed three calls per question.
+oracle,upper_bound,dense|file_fts|graph_path outputs,no,Analysis-only ideal selector using gold labels during evaluation; not deployable.
+two_stage_agent,final_agent,router + evidence_judge + optional second retriever,yes,Final two-stage agent with coverage-based Evidence Judge and protected weighted RRF.

@@ -1,0 +1,416 @@
+{
+  "by_k": {
+    "1": {
+      "complete_recall_at_k": 0.4888888888888889,
+      "complete_recall_at_k_ci95": {
+        "high": 0.5666666666666667,
+        "low": 0.4222222222222222
+      },
+      "count": 180,
+      "evidence_gain_step2": null,
+      "evidence_recall_at_k": 0.7277777777777777,
+      "evidence_recall_at_k_ci95": {
+        "high": 0.7944444444444444,
+        "low": 0.6611111111111111
+      },
+      "latency_ms": 166.9608716659248,
+      "latency_ms_p95": 168.72355999549228,
+      "mrr": 0.7277777777777777,
+      "search_success": 0.4888888888888889,
+      "search_success_ci95": {
+        "high": 0.5666666666666667,
+        "low": 0.4222222222222222
+      },
+      "stop_accuracy": null,
+      "text_read_tokens": 400.06111111111113,
+      "tool_calls": 1.0
+    },
+    "3": {
+      "complete_recall_at_k": 0.6777777777777778,
+      "complete_recall_at_k_ci95": {
+        "high": 0.7444444444444445,
+        "low": 0.6166666666666667
+      },
+      "count": 180,
+      "evidence_gain_step2": null,
+      "evidence_recall_at_k": 0.8666666666666667,
+      "evidence_recall_at_k_ci95": {
+        "high": 0.9111111111111111,
+        "low": 0.8166666666666667
+      },
+      "latency_ms": 166.9608716659248,
+      "latency_ms_p95": 168.72355999549228,
+      "mrr": 0.7907407407407407,
+      "search_success": 0.6777777777777778,
+      "search_success_ci95": {
+        "high": 0.7444444444444445,
+        "low": 0.6166666666666667
+      },
+      "stop_accuracy": null,
+      "text_read_tokens": 400.06111111111113,
+      "tool_calls": 1.0
+    },
+    "5": {
+      "complete_recall_at_k": 0.7444444444444445,
+      "complete_recall_at_k_ci95": {
+        "high": 0.8055555555555556,
+        "low": 0.6833333333333333
+      },
+      "count": 180,
+      "evidence_gain_step2": null,
+      "evidence_recall_at_k": 0.9166666666666666,
+      "evidence_recall_at_k_ci95": {
+        "high": 0.95,
+        "low": 0.8777777777777778
+      },
+      "latency_ms": 166.9608716659248,
+      "latency_ms_p95": 168.72355999549228,
+      "mrr": 0.8018518518518518,
+      "search_success": 0.7444444444444445,
+      "search_success_ci95": {
+        "high": 0.8055555555555556,
+        "low": 0.6833333333333333
+      },
+      "stop_accuracy": null,
+      "text_read_tokens": 400.06111111111113,
+      "tool_calls": 1.0
+    }
+  },
+  "by_task_type": {
+    "exact_file_lookup": {
+      "complete_recall_at_k": 0.8333333333333334,
+      "complete_recall_at_k_ci95": {
+        "high": 0.9166666666666666,
+        "low": 0.7333333333333333
+      },
+      "count": 60,
+      "evidence_gain_step2": null,
+      "evidence_recall_at_k": 0.8333333333333334,
+      "evidence_recall_at_k_ci95": {
+        "high": 0.9166666666666666,
+        "low": 0.7333333333333333
+      },
+      "latency_ms": 167.0367466645936,
+      "latency_ms_p95": 168.3719100077947,
+      "mrr": 0.7177777777777777,
+      "search_success": 0.8333333333333334,
+      "search_success_ci95": {
+        "high": 0.9166666666666666,
+        "low": 0.7333333333333333
+      },
+      "stop_accuracy": null,
+      "text_read_tokens": 385.18333333333334,
+      "tool_calls": 1.0
+    },
+    "multi_hop_relation": {
+      "complete_recall_at_k": 0.45,
+      "complete_recall_at_k_ci95": {
+        "high": 0.5833333333333334,
+        "low": 0.3333333333333333
+      },
+      "count": 60,
+      "evidence_gain_step2": null,
+      "evidence_recall_at_k": 0.9666666666666667,
+      "evidence_recall_at_k_ci95": {
+        "high": 1.0,
+        "low": 0.9166666666666666
+      },
+      "latency_ms": 166.88683500140905,
+      "latency_ms_p95": 169.0265649964412,
+      "mrr": 0.81,
+      "search_success": 0.45,
+      "search_success_ci95": {
+        "high": 0.5833333333333334,
+        "low": 0.3333333333333333
+      },
+      "stop_accuracy": null,
+      "text_read_tokens": 420.68333333333334,
+      "tool_calls": 1.0
+    },
+    "semantic_fact": {
+      "complete_recall_at_k": 0.95,
+      "complete_recall_at_k_ci95": {
+        "high": 1.0,
+        "low": 0.8833333333333333
+      },
+      "count": 60,
+      "evidence_gain_step2": null,
+      "evidence_recall_at_k": 0.95,
+      "evidence_recall_at_k_ci95": {
+        "high": 1.0,
+        "low": 0.8833333333333333
+      },
+      "latency_ms": 166.9590333317717,
+      "latency_ms_p95": 168.52045999666055,
+      "mrr": 0.8777777777777778,
+      "search_success": 0.95,
+      "search_success_ci95": {
+        "high": 1.0,
+        "low": 0.8833333333333333
+      },
+      "stop_accuracy": null,
+      "text_read_tokens": 394.31666666666666,
+      "tool_calls": 1.0
+    }
+  },
+  "by_task_type_by_k": {
+    "1": {
+      "exact_file_lookup": {
+        "complete_recall_at_k": 0.65,
+        "complete_recall_at_k_ci95": {
+          "high": 0.7666666666666667,
+          "low": 0.5333333333333333
+        },
+        "count": 60,
+        "evidence_gain_step2": null,
+        "evidence_recall_at_k": 0.65,
+        "evidence_recall_at_k_ci95": {
+          "high": 0.7666666666666667,
+          "low": 0.5333333333333333
+        },
+        "latency_ms": 167.0367466645936,
+        "latency_ms_p95": 168.3719100077947,
+        "mrr": 0.65,
+        "search_success": 0.65,
+        "search_success_ci95": {
+          "high": 0.7666666666666667,
+          "low": 0.5333333333333333
+        },
+        "stop_accuracy": null,
+        "text_read_tokens": 385.18333333333334,
+        "tool_calls": 1.0
+      },
+      "multi_hop_relation": {
+        "complete_recall_at_k": 0.0,
+        "complete_recall_at_k_ci95": {
+          "high": 0.0,
+          "low": 0.0
+        },
+        "count": 60,
+        "evidence_gain_step2": null,
+        "evidence_recall_at_k": 0.7166666666666667,
+        "evidence_recall_at_k_ci95": {
+          "high": 0.8166666666666667,
+          "low": 0.6
+        },
+        "latency_ms": 166.88683500140905,
+        "latency_ms_p95": 169.0265649964412,
+        "mrr": 0.7166666666666667,
+        "search_success": 0.0,
+        "search_success_ci95": {
+          "high": 0.0,
+          "low": 0.0
+        },
+        "stop_accuracy": null,
+        "text_read_tokens": 420.68333333333334,
+        "tool_calls": 1.0
+      },
+      "semantic_fact": {
+        "complete_recall_at_k": 0.8166666666666667,
+        "complete_recall_at_k_ci95": {
+          "high": 0.9166666666666666,
+          "low": 0.7166666666666667
+        },
+        "count": 60,
+        "evidence_gain_step2": null,
+        "evidence_recall_at_k": 0.8166666666666667,
+        "evidence_recall_at_k_ci95": {
+          "high": 0.9166666666666666,
+          "low": 0.7166666666666667
+        },
+        "latency_ms": 166.9590333317717,
+        "latency_ms_p95": 168.52045999666055,
+        "mrr": 0.8166666666666667,
+        "search_success": 0.8166666666666667,
+        "search_success_ci95": {
+          "high": 0.9166666666666666,
+          "low": 0.7166666666666667
+        },
+        "stop_accuracy": null,
+        "text_read_tokens": 394.31666666666666,
+        "tool_calls": 1.0
+      }
+    },
+    "3": {
+      "exact_file_lookup": {
+        "complete_recall_at_k": 0.7666666666666667,
+        "complete_recall_at_k_ci95": {
+          "high": 0.8666666666666667,
+          "low": 0.6666666666666666
+        },
+        "count": 60,
+        "evidence_gain_step2": null,
+        "evidence_recall_at_k": 0.7666666666666667,
+        "evidence_recall_at_k_ci95": {
+          "high": 0.8666666666666667,
+          "low": 0.6666666666666666
+        },
+        "latency_ms": 167.0367466645936,
+        "latency_ms_p95": 168.3719100077947,
+        "mrr": 0.7027777777777777,
+        "search_success": 0.7666666666666667,
+        "search_success_ci95": {
+          "high": 0.8666666666666667,
+          "low": 0.6666666666666666
+        },
+        "stop_accuracy": null,
+        "text_read_tokens": 385.18333333333334,
+        "tool_calls": 1.0
+      },
+      "multi_hop_relation": {
+        "complete_recall_at_k": 0.31666666666666665,
+        "complete_recall_at_k_ci95": {
+          "high": 0.43333333333333335,
+          "low": 0.2
+        },
+        "count": 60,
+        "evidence_gain_step2": null,
+        "evidence_recall_at_k": 0.8833333333333333,
+        "evidence_recall_at_k_ci95": {
+          "high": 0.95,
+          "low": 0.8
+        },
+        "latency_ms": 166.88683500140905,
+        "latency_ms_p95": 169.0265649964412,
+        "mrr": 0.7916666666666666,
+        "search_success": 0.31666666666666665,
+        "search_success_ci95": {
+          "high": 0.43333333333333335,
+          "low": 0.2
+        },
+        "stop_accuracy": null,
+        "text_read_tokens": 420.68333333333334,
+        "tool_calls": 1.0
+      },
+      "semantic_fact": {
+        "complete_recall_at_k": 0.95,
+        "complete_recall_at_k_ci95": {
+          "high": 1.0,
+          "low": 0.8833333333333333
+        },
+        "count": 60,
+        "evidence_gain_step2": null,
+        "evidence_recall_at_k": 0.95,
+        "evidence_recall_at_k_ci95": {
+          "high": 1.0,
+          "low": 0.8833333333333333
+        },
+        "latency_ms": 166.9590333317717,
+        "latency_ms_p95": 168.52045999666055,
+        "mrr": 0.8777777777777778,
+        "search_success": 0.95,
+        "search_success_ci95": {
+          "high": 1.0,
+          "low": 0.8833333333333333
+        },
+        "stop_accuracy": null,
+        "text_read_tokens": 394.31666666666666,
+        "tool_calls": 1.0
+      }
+    },
+    "5": {
+      "exact_file_lookup": {
+        "complete_recall_at_k": 0.8333333333333334,
+        "complete_recall_at_k_ci95": {
+          "high": 0.9166666666666666,
+          "low": 0.7333333333333333
+        },
+        "count": 60,
+        "evidence_gain_step2": null,
+        "evidence_recall_at_k": 0.8333333333333334,
+        "evidence_recall_at_k_ci95": {
+          "high": 0.9166666666666666,
+          "low": 0.7333333333333333
+        },
+        "latency_ms": 167.0367466645936,
+        "latency_ms_p95": 168.3719100077947,
+        "mrr": 0.7177777777777777,
+        "search_success": 0.8333333333333334,
+        "search_success_ci95": {
+          "high": 0.9166666666666666,
+          "low": 0.7333333333333333
+        },
+        "stop_accuracy": null,
+        "text_read_tokens": 385.18333333333334,
+        "tool_calls": 1.0
+      },
+      "multi_hop_relation": {
+        "complete_recall_at_k": 0.45,
+        "complete_recall_at_k_ci95": {
+          "high": 0.5833333333333334,
+          "low": 0.3333333333333333
+        },
+        "count": 60,
+        "evidence_gain_step2": null,
+        "evidence_recall_at_k": 0.9666666666666667,
+        "evidence_recall_at_k_ci95": {
+          "high": 1.0,
+          "low": 0.9166666666666666
+        },
+        "latency_ms": 166.88683500140905,
+        "latency_ms_p95": 169.0265649964412,
+        "mrr": 0.81,
+        "search_success": 0.45,
+        "search_success_ci95": {
+          "high": 0.5833333333333334,
+          "low": 0.3333333333333333
+        },
+        "stop_accuracy": null,
+        "text_read_tokens": 420.68333333333334,
+        "tool_calls": 1.0
+      },
+      "semantic_fact": {
+        "complete_recall_at_k": 0.95,
+        "complete_recall_at_k_ci95": {
+          "high": 1.0,
+          "low": 0.8833333333333333
+        },
+        "count": 60,
+        "evidence_gain_step2": null,
+        "evidence_recall_at_k": 0.95,
+        "evidence_recall_at_k_ci95": {
+          "high": 1.0,
+          "low": 0.8833333333333333
+        },
+        "latency_ms": 166.9590333317717,
+        "latency_ms_p95": 168.52045999666055,
+        "mrr": 0.8777777777777778,
+        "search_success": 0.95,
+        "search_success_ci95": {
+          "high": 1.0,
+          "low": 0.8833333333333333
+        },
+        "stop_accuracy": null,
+        "text_read_tokens": 394.31666666666666,
+        "tool_calls": 1.0
+      }
+    }
+  },
+  "missing_question_ids": [],
+  "overall": {
+    "complete_recall_at_k": 0.7444444444444445,
+    "complete_recall_at_k_ci95": {
+      "high": 0.8055555555555556,
+      "low": 0.6833333333333333
+    },
+    "count": 180,
+    "evidence_gain_step2": null,
+    "evidence_recall_at_k": 0.9166666666666666,
+    "evidence_recall_at_k_ci95": {
+      "high": 0.95,
+      "low": 0.8777777777777778
+    },
+    "latency_ms": 166.9608716659248,
+    "latency_ms_p95": 168.72355999549228,
+    "mrr": 0.8018518518518518,
+    "search_success": 0.7444444444444445,
+    "search_success_ci95": {
+      "high": 0.8055555555555556,
+      "low": 0.6833333333333333
+    },
+    "stop_accuracy": null,
+    "text_read_tokens": 400.06111111111113,
+    "tool_calls": 1.0
+  },
+  "primary_k": 5
+}

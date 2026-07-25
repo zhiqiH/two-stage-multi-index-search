@@ -1,0 +1,23 @@
+{
+  "candidate_counts": {
+    "exact_file_lookup": 90,
+    "exact_subtypes": {
+      "date_number_lookup": 30,
+      "exact_phrase_lookup": 30,
+      "title_anchor": 30
+    },
+    "multi_hop_relation": 90,
+    "semantic_fact": 90
+  },
+  "candidate_source_ids": 270,
+  "corpus_documents": 3500,
+  "outputs": {
+    "candidate_pool": "data\\final\\staging\\candidate_pool.jsonl",
+    "exact_sheet": "data\\final\\manual\\exact_lookup_sheet.csv",
+    "multi_hop_sheet": "data\\final\\manual\\multi_hop_candidate_sheet.csv",
+    "semantic_sheet": "data\\final\\manual\\semantic_rewrite_sheet.csv",
+    "staging_corpus": "data\\final\\staging\\corpus.jsonl"
+  },
+  "scan_limit": 30000,
+  "seed": 42
+}

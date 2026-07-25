@@ -1,0 +1,17 @@
+source_file,exported_file,note
+dense_final_metrics.csv,dense_final_metrics.csv,metric/summary artifact
+dense_final_predictions.jsonl,dense_final_retrieval_output.jsonl,Top-k retrieval output
+dense_final_summary.json,dense_final_summary.json,metric/summary artifact
+file_fts_final_metrics.csv,file_fts_final_metrics.csv,metric/summary artifact
+file_fts_final_predictions.jsonl,file_fts_final_retrieval_output.jsonl,Top-k retrieval output
+file_fts_final_summary.json,file_fts_final_summary.json,metric/summary artifact
+fusion_final_metrics.csv,fusion_final_metrics.csv,metric/summary artifact
+fusion_final_predictions.jsonl,fusion_final_retrieval_output.jsonl,Top-k retrieval output
+fusion_final_summary.json,fusion_final_summary.json,metric/summary artifact
+graph_path_final_metrics.csv,graph_path_final_metrics.csv,metric/summary artifact
+graph_path_final_predictions.jsonl,graph_path_final_retrieval_output.jsonl,Top-k retrieval output
+graph_path_final_summary.json,graph_path_final_summary.json,metric/summary artifact
+main_results.csv,main_results.csv,metric/summary artifact
+oracle_final_metrics.csv,oracle_final_metrics.csv,metric/summary artifact
+oracle_final_predictions.jsonl,oracle_final_retrieval_output.jsonl,Top-k retrieval output
+oracle_final_summary.json,oracle_final_summary.json,metric/summary artifact

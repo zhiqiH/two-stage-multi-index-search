@@ -1,0 +1,15 @@
+method,method_description,k,evidence_recall,complete_evidence_recall,search_success,mrr,avg_tool_calls,avg_latency_ms,p95_latency_ms,evidence_gain_step2,stop_accuracy
+dense,Dense MiniLM semantic retrieval,3,86.67%,67.78%,67.78%,79.07%,1.0000,166.96,168.72,,
+file_fts,SQLite FTS5 BM25F file retrieval,3,96.67%,75.56%,75.56%,90.46%,1.0000,6.78,15.26,,
+graph_path,PathRetriever-style graph path retrieval,3,87.78%,77.78%,77.78%,78.52%,1.0000,24.35,40.06,,
+rule_router,Rule Router single-tool selector,3,93.89%,78.33%,78.33%,87.50%,1.0000,2100.54,6616.73,,
+fusion,RRF fusion over three retrievers,3,97.22%,78.89%,78.89%,89.35%,3.0000,198.09,223.08,,
+oracle,Analysis-only best-method upper bound,3,97.78%,87.22%,87.22%,94.44%,1.0000,16.52,40.25,,
+two_stage_agent,Final Two-Stage Agent with coverage judge and protected RRF,3,95.56%,80.00%,80.00%,87.59%,1.4389,2536.02,6398.23,2.78%,55.56%
+dense,Dense MiniLM semantic retrieval,5,91.67%,74.44%,74.44%,80.19%,1.0000,166.96,168.72,,
+file_fts,SQLite FTS5 BM25F file retrieval,5,98.33%,78.89%,78.89%,90.88%,1.0000,6.78,15.26,,
+graph_path,PathRetriever-style graph path retrieval,5,92.78%,82.22%,82.22%,79.69%,1.0000,24.35,40.06,,
+rule_router,Rule Router single-tool selector,5,96.67%,82.22%,82.22%,88.14%,1.0000,2100.54,6616.73,,
+fusion,RRF fusion over three retrievers,5,97.22%,85.56%,85.56%,89.35%,3.0000,198.09,223.08,,
+oracle,Analysis-only best-method upper bound,5,98.33%,90.00%,90.00%,94.58%,1.0000,16.52,40.25,,
+two_stage_agent,Final Two-Stage Agent with coverage judge and protected RRF,5,96.67%,85.56%,85.56%,87.81%,1.4389,2536.02,6398.23,3.33%,58.33%
